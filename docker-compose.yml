@@ -6,6 +6,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - /execution/:/opt/execution/
+      - /execution/adds/:/opt/execution/adds
     ports:
       - 8000:8000
     depends_on:

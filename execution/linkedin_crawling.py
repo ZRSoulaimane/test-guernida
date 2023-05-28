@@ -3,7 +3,6 @@ from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup as bs
 import time 
 import psycopg2
-import regex as re 
 from dotenv import dotenv_values
 from datetime import datetime
 from selenium.webdriver.support.ui import WebDriverWait
@@ -19,7 +18,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s [%(levelname)s] %(message)s',
     handlers=[
-        logging.FileHandler('app.log'),  # Save logs to a file
+        logging.FileHandler('adds/app.log'),  # Save logs to a file
         logging.StreamHandler()  # Print logs to console
     ]
 )
@@ -29,7 +28,6 @@ def get_chromedriver():
 
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument('--user-agent=%s' % user_agent)
-    chrome_options.add_argument(f'--proxy-server=zproxy.lum-superproxy.io:9222')
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
@@ -43,7 +41,7 @@ def get_chromedriver():
     return webdriver.Chrome(options=chrome_options)
 
 def connexions(driver):
-    connexion = dotenv_values("connexion.env")
+    connexion = dotenv_values("adds/connexion.env")
     time.sleep(3)
     email = connexion["EMAIL"]
 
