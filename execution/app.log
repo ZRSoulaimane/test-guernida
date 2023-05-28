@@ -1,0 +1,599 @@
+2023-05-23 15:50:26,377 [INFO] Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-05-23 15:50:33,276 [INFO] Login done
+2023-05-23 15:51:56,550 [INFO] Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-05-23 15:52:03,713 [INFO] Login done
+2023-05-23 16:11:40,244 [INFO] Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-05-23 16:12:07,814 [INFO] Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-05-23 16:12:19,918 [INFO] Login done
+2023-05-23 16:13:42,359 [INFO] Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-05-23 16:13:54,789 [INFO] Login done
+2023-05-23 16:15:04,851 [INFO] Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-05-23 16:15:17,166 [INFO] Login done
+2023-05-23 16:19:35,805 [INFO] Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-05-28 15:26:16,761 [INFO] Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-05-28 15:26:56,439 [INFO] info insered
+2023-05-28 15:27:36,189 [INFO] info insered
+2023-05-28 15:28:00,296 [INFO] login done
+2023-05-28 16:55:28,672 [INFO] info insered
+2023-05-28 16:56:35,528 [INFO] info insered
+2023-05-28 16:56:43,042 [INFO] login done
+2023-05-28 17:07:50,358 [INFO] info insered
+2023-05-28 17:07:57,945 [INFO] login done
+2023-05-28 17:11:31,844 [INFO] info insered
+2023-05-28 17:11:38,963 [INFO] login done
+2023-05-28 17:12:16,445 [INFO] info insered
+2023-05-28 17:12:23,587 [INFO] login done
+2023-05-28 17:13:01,871 [INFO] info insered
+2023-05-28 17:13:06,823 [INFO] login done
+2023-05-28 17:13:59,975 [INFO] info insered
+2023-05-28 17:14:07,297 [INFO] login done
+2023-05-28 17:15:23,878 [INFO] info insered
+2023-05-28 17:15:31,320 [INFO] login done
+2023-05-28 17:16:01,507 [INFO] info insered
+2023-05-28 17:16:09,220 [INFO] login done
+2023-05-28 17:17:05,163 [INFO] info insered
+2023-05-28 17:17:10,973 [INFO] login done
+2023-05-28 17:22:44,799 [INFO] info insered
+2023-05-28 17:22:49,924 [INFO] login done
+2023-05-28 17:26:03,297 [INFO] info insered
+2023-05-28 17:26:10,468 [INFO] login done
+2023-05-28 17:28:47,713 [INFO] info insered
+2023-05-28 17:28:55,055 [INFO] login done
+2023-05-28 17:29:55,364 [INFO] info insered
+2023-05-28 17:30:03,228 [INFO] login done
+2023-05-28 17:30:09,581 [INFO] Connextion established to the database
+2023-05-28 17:30:19,606 [INFO] iteration 1 of the posts loop
+2023-05-28 17:30:19,788 [INFO] post insered
+2023-05-28 17:30:20,353 [INFO] stats insered
+2023-05-28 17:30:20,963 [INFO] reaction insered
+2023-05-28 17:30:21,057 [INFO] iteration 2 of the posts loop
+2023-05-28 17:30:21,120 [INFO] post insered
+2023-05-28 17:30:21,412 [INFO] stats insered
+2023-05-28 17:30:22,072 [INFO] reaction insered
+2023-05-28 17:30:22,163 [INFO] iteration 3 of the posts loop
+2023-05-28 17:30:22,229 [INFO] post insered
+2023-05-28 17:30:22,585 [INFO] stats insered
+2023-05-28 17:30:23,126 [INFO] reaction insered
+2023-05-28 17:30:33,271 [INFO] iteration 4 of the posts loop
+2023-05-28 17:30:33,316 [INFO] post insered
+2023-05-28 17:30:33,557 [INFO] stats insered
+2023-05-28 17:30:34,151 [INFO] reaction insered
+2023-05-28 17:30:34,225 [INFO] iteration 5 of the posts loop
+2023-05-28 17:30:34,278 [INFO] post insered
+2023-05-28 17:30:34,634 [INFO] stats insered
+2023-05-28 17:30:35,413 [INFO] reaction insered
+2023-05-28 17:30:35,495 [INFO] iteration 6 of the posts loop
+2023-05-28 17:30:35,546 [INFO] post insered
+2023-05-28 17:30:35,881 [INFO] stats insered
+2023-05-28 17:30:36,618 [INFO] reaction insered
+2023-05-28 17:30:36,694 [INFO] iteration 7 of the posts loop
+2023-05-28 17:30:36,744 [INFO] post insered
+2023-05-28 17:30:37,027 [INFO] stats insered
+2023-05-28 17:30:37,785 [INFO] reaction insered
+2023-05-28 17:30:37,885 [INFO] iteration 8 of the posts loop
+2023-05-28 17:30:37,947 [INFO] post insered
+2023-05-28 17:30:38,250 [INFO] stats insered
+2023-05-28 17:30:39,077 [INFO] reaction insered
+2023-05-28 17:30:39,161 [INFO] iteration 9 of the posts loop
+2023-05-28 17:30:39,215 [INFO] post insered
+2023-05-28 17:30:39,499 [INFO] stats insered
+2023-05-28 17:30:40,287 [INFO] reaction insered
+2023-05-28 17:30:40,482 [INFO] iteration 10 of the posts loop
+2023-05-28 17:30:40,540 [INFO] post insered
+2023-05-28 17:30:40,835 [INFO] stats insered
+2023-05-28 17:40:09,549 [INFO] info insered
+2023-05-28 17:40:18,371 [INFO] login done
+2023-05-28 17:40:23,972 [INFO] Connextion established to the database
+2023-05-28 17:40:23,973 [INFO] Scrolling the page...
+2023-05-28 17:40:23,978 [INFO] Waiting for new content to load...
+2023-05-28 17:40:55,021 [INFO] info insered
+2023-05-28 17:41:03,301 [INFO] login done
+2023-05-28 17:41:08,923 [INFO] Connextion established to the database
+2023-05-28 17:41:08,923 [INFO] Scrolling the page...
+2023-05-28 17:41:08,928 [INFO] Waiting for new content to load...
+2023-05-28 17:42:00,210 [INFO] info insered
+2023-05-28 17:42:08,690 [INFO] login done
+2023-05-28 17:42:14,297 [INFO] Connextion established to the database
+2023-05-28 17:42:14,297 [INFO] Scrolling the page...
+2023-05-28 17:42:14,305 [INFO] Waiting for new content to load...
+2023-05-28 17:42:24,317 [INFO] Found 3 new elements
+2023-05-28 17:42:24,318 [INFO] Container added to found_elements
+2023-05-28 17:42:24,318 [INFO] Iteration 1 of the posts loop
+2023-05-28 17:42:24,328 [INFO] Date box element found
+2023-05-28 17:42:24,356 [INFO] Date extracted: ['5/28/2023']
+2023-05-28 17:42:24,359 [INFO] Date converted: 2023-05-28
+2023-05-28 17:42:24,371 [INFO] Text box element found
+2023-05-28 17:42:24,382 [INFO] Text element found
+2023-05-28 17:42:24,419 [INFO] Keywords extracted: #Gear9atGitex #SalesforceatGitex #Gear9PartnerSalesforce #GITEXAFRICA #APEBI #DigitalTransformation #TechOpportunities #future #africa #business #team #growth #salesforce
+2023-05-28 17:42:24,419 [INFO] Post inserted
+2023-05-28 17:42:24,634 [INFO] Clicked on stats_button
+2023-05-28 17:42:24,737 [INFO] Stats elements found
+2023-05-28 17:42:24,980 [INFO] Stats values extracted: {'impression': 274.0, 'click_rate': 18.61, 'comment': 0, 'repost': 1, 'click': 51, 'engagement': 21.9, 'stat_title': '', 'value': ''}
+2023-05-28 17:42:24,980 [INFO] Stats inserted
+2023-05-28 17:42:25,094 [INFO] Clicked on react_button
+2023-05-28 17:42:25,589 [INFO] Reactions values extracted: {'nb_like': 4, 'nb_love': 4, 'nb_support': 0, 'nb_celebrate': 0, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 17:42:25,590 [INFO] reaction insered
+2023-05-28 17:42:25,685 [INFO] Clicked on close_button
+2023-05-28 17:42:25,686 [INFO] Updated initialScroll: 900, finalScroll: 1800
+2023-05-28 17:42:25,686 [INFO] Container added to found_elements
+2023-05-28 17:42:25,686 [INFO] Iteration 2 of the posts loop
+2023-05-28 17:42:25,698 [INFO] Date box element found
+2023-05-28 17:42:25,720 [INFO] Date extracted: ['5/24/2023']
+2023-05-28 17:42:25,720 [INFO] Date converted: 2023-05-24
+2023-05-28 17:42:25,732 [INFO] Text box element found
+2023-05-28 17:42:25,743 [INFO] Text element found
+2023-05-28 17:42:25,760 [INFO] Text extracted: Calling all tech enthusiasts !Only 7 days left for GITEX AFRICA, the continent's largest tech event, and Salesforce x Gear9 are thrilled to be a part of it !Visit us at Hall 10 - Pavilion APEBI, Stand 10C-10 to meet our team of digital experts.Don't miss the chance to meet our team and explore the future of digital transformation. See you there !#Gear9atGitex #SalesforceatGitex #Gear9PartnerSalesforce #GITEXAFRICA #APEBI #DigitalTransformation #TechOpportunities
+2023-05-28 17:42:25,763 [INFO] Keywords extracted: !#Gear9atGitex #SalesforceatGitex #Gear9PartnerSalesforce #GITEXAFRICA #APEBI #DigitalTransformation #TechOpportunities
+2023-05-28 17:42:25,764 [INFO] Post inserted
+2023-05-28 17:42:25,855 [INFO] Clicked on stats_button
+2023-05-28 17:42:25,875 [INFO] Stats elements found
+2023-05-28 17:42:26,091 [INFO] Stats values extracted: {'impression': 796.0, 'click_rate': 3.89, 'comment': 0, 'repost': 10, 'click': 31, 'engagement': 11.18, 'stat_title': '', 'value': ''}
+2023-05-28 17:42:26,091 [INFO] Stats inserted
+2023-05-28 17:42:26,193 [INFO] Clicked on react_button
+2023-05-28 17:42:26,685 [INFO] Reactions values extracted: {'nb_like': 38, 'nb_love': 7, 'nb_support': 3, 'nb_celebrate': 0, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 17:42:26,686 [INFO] reaction insered
+2023-05-28 17:42:26,852 [INFO] Clicked on close_button
+2023-05-28 17:42:26,853 [INFO] Updated initialScroll: 1800, finalScroll: 2700
+2023-05-28 17:42:26,853 [INFO] Container added to found_elements
+2023-05-28 17:42:26,853 [INFO] Iteration 3 of the posts loop
+2023-05-28 17:42:26,870 [INFO] Date box element found
+2023-05-28 17:42:26,889 [INFO] Date extracted: ['5/22/2023']
+2023-05-28 17:42:26,890 [INFO] Date converted: 2023-05-22
+2023-05-28 17:42:26,902 [INFO] Text box element found
+2023-05-28 17:42:26,914 [INFO] Text element found
+2023-05-28 17:42:26,936 [INFO] Keywords extracted: #innovation #digital #webdesign #CX
+2023-05-28 17:42:26,937 [INFO] Post inserted
+2023-05-28 17:42:27,018 [INFO] Clicked on stats_button
+2023-05-28 17:42:27,039 [INFO] Stats elements found
+2023-05-28 17:42:27,255 [INFO] Stats values extracted: {'impression': 1409.0, 'click_rate': 5.46, 'comment': 0, 'repost': 0, 'click': 77, 'engagement': 8.02, 'stat_title': '', 'value': ''}
+2023-05-28 17:42:27,255 [INFO] Stats inserted
+2023-05-28 17:42:27,364 [INFO] Clicked on react_button
+2023-05-28 17:42:27,830 [INFO] Reactions values extracted: {'nb_like': 24, 'nb_love': 5, 'nb_support': 2, 'nb_celebrate': 5, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 17:42:27,831 [INFO] reaction insered
+2023-05-28 17:42:27,968 [INFO] Clicked on close_button
+2023-05-28 17:42:27,969 [INFO] Updated initialScroll: 2700, finalScroll: 3600
+2023-05-28 17:42:27,969 [INFO] Checking if all elements are found
+2023-05-28 17:42:27,969 [INFO] Scrolling the page...
+2023-05-28 17:42:27,982 [INFO] Waiting for new content to load...
+2023-05-28 17:42:37,994 [INFO] Found 13 new elements
+2023-05-28 17:42:37,994 [INFO] Updated initialScroll: 3600, finalScroll: 4500
+2023-05-28 17:42:37,995 [INFO] Updated initialScroll: 4500, finalScroll: 5400
+2023-05-28 17:42:37,995 [INFO] Updated initialScroll: 5400, finalScroll: 6300
+2023-05-28 17:42:37,995 [INFO] Container added to found_elements
+2023-05-28 17:42:37,996 [INFO] Iteration 4 of the posts loop
+2023-05-28 17:42:38,008 [INFO] Date box element found
+2023-05-28 17:42:38,039 [INFO] Date extracted: ['5/17/2023']
+2023-05-28 17:42:38,039 [INFO] Date converted: 2023-05-17
+2023-05-28 17:42:38,049 [INFO] Text box element found
+2023-05-28 17:42:38,066 [INFO] Text element found
+2023-05-28 17:42:38,089 [INFO] Keywords extracted: Ouchene#Gear9atGitex #SalesforceatGitex #Gear9PartnerSalesforce #GITEXAFRICA #APEBI #DigitalTransformation #TechOpportunities
+2023-05-28 17:42:38,090 [INFO] Post inserted
+2023-05-28 17:42:38,209 [INFO] Clicked on stats_button
+2023-05-28 17:42:38,224 [INFO] Stats elements found
+2023-05-28 17:42:38,565 [INFO] Stats values extracted: {'impression': 1301.0, 'click_rate': 6.3, 'comment': 0, 'repost': 7, 'click': 82, 'engagement': 11.38, 'stat_title': '', 'value': ''}
+2023-05-28 17:42:38,565 [INFO] Stats inserted
+2023-05-28 17:42:38,694 [INFO] Clicked on react_button
+2023-05-28 17:42:39,643 [INFO] Reactions values extracted: {'nb_like': 42, 'nb_love': 7, 'nb_support': 3, 'nb_celebrate': 7, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 17:42:39,643 [INFO] reaction insered
+2023-05-28 17:42:39,848 [INFO] Clicked on close_button
+2023-05-28 17:42:39,848 [INFO] Updated initialScroll: 6300, finalScroll: 7200
+2023-05-28 17:42:39,848 [INFO] Container added to found_elements
+2023-05-28 17:42:39,849 [INFO] Iteration 5 of the posts loop
+2023-05-28 17:42:39,910 [INFO] Date box element found
+2023-05-28 17:42:39,962 [INFO] Date extracted: ['5/14/2023']
+2023-05-28 17:42:39,962 [INFO] Date converted: 2023-05-14
+2023-05-28 17:42:39,979 [INFO] Text box element found
+2023-05-28 17:42:39,998 [INFO] Text element found
+2023-05-28 17:42:40,022 [INFO] Text extracted: Notre passion pour l'innovation continue à être récompensée ! Nous sommes fiers de vous annoncer que notre projet Inwi.ma co-construit avec inwi a remporté le prestigieux Prix Webdesign aux Impériales 2023. Nous tenons à remercier inwi pour son soutien et nos forces vives  pour leur engagement sans faille au service des consommateurs. Cette reconnaissance renforce notre engagement à offrir des expériences digitales uniques qui placent la CX au cœur de tout ce que nous réalisons. Les Impériales #PrixWebdesign #inwi #Innovation #CX #Impériales2023 #DigitalExperience
+2023-05-28 17:42:40,023 [INFO] Keywords extracted: #PrixWebdesign #inwi #Innovation #CX #Impériales2023 #DigitalExperience
+2023-05-28 17:42:40,024 [INFO] Post inserted
+2023-05-28 17:42:40,332 [INFO] Clicked on stats_button
+2023-05-28 17:42:40,375 [INFO] Stats elements found
+2023-05-28 17:42:40,947 [INFO] Stats values extracted: {'impression': 2648.0, 'click_rate': 12.8, 'comment': 3, 'repost': 2, 'click': 339, 'engagement': 14.95, 'stat_title': '', 'value': ''}
+2023-05-28 17:42:40,948 [INFO] Stats inserted
+2023-05-28 17:42:41,131 [INFO] Clicked on react_button
+2023-05-28 17:42:41,948 [INFO] Reactions values extracted: {'nb_like': 34, 'nb_love': 10, 'nb_support': 1, 'nb_celebrate': 7, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 17:42:41,949 [INFO] reaction insered
+2023-05-28 17:42:42,094 [INFO] Clicked on close_button
+2023-05-28 17:42:42,095 [INFO] Updated initialScroll: 7200, finalScroll: 8100
+2023-05-28 17:42:42,095 [INFO] Container added to found_elements
+2023-05-28 17:42:42,096 [INFO] Iteration 6 of the posts loop
+2023-05-28 17:42:42,155 [INFO] Date box element found
+2023-05-28 17:42:42,192 [INFO] Date extracted: ['5/11/2023']
+2023-05-28 17:42:42,192 [INFO] Date converted: 2023-05-11
+2023-05-28 17:42:42,208 [INFO] Text box element found
+2023-05-28 17:42:42,226 [INFO] Text element found
+2023-05-28 17:42:42,248 [INFO] Keywords extracted: #coupdecoeurdujury #experienceclient #CX
+2023-05-28 17:42:42,249 [INFO] Post inserted
+2023-05-28 17:42:42,481 [INFO] Clicked on stats_button
+2023-05-28 17:42:42,518 [INFO] Stats elements found
+2023-05-28 17:42:42,972 [INFO] Stats values extracted: {'impression': 3166.0, 'click_rate': 31.93, 'comment': 2, 'repost': 7, 'click': 1011, 'engagement': 34.87, 'stat_title': '', 'value': ''}
+2023-05-28 17:42:42,972 [INFO] Stats inserted
+2023-05-28 17:42:43,145 [INFO] Clicked on react_button
+2023-05-28 17:42:43,984 [INFO] Reactions values extracted: {'nb_like': 60, 'nb_love': 15, 'nb_support': 0, 'nb_celebrate': 9, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 17:42:43,985 [INFO] reaction insered
+2023-05-28 17:42:44,229 [INFO] Clicked on close_button
+2023-05-28 17:42:44,231 [INFO] Updated initialScroll: 8100, finalScroll: 9000
+2023-05-28 17:42:44,231 [INFO] Container added to found_elements
+2023-05-28 17:42:44,231 [INFO] Iteration 7 of the posts loop
+2023-05-28 17:42:44,287 [INFO] Date box element found
+2023-05-28 17:42:44,330 [INFO] Date extracted: ['3/31/2023']
+2023-05-28 17:42:44,331 [INFO] Date converted: 2023-03-31
+2023-05-28 17:42:44,348 [INFO] Text box element found
+2023-05-28 17:42:44,365 [INFO] Text element found
+2023-05-28 17:42:44,393 [INFO] Text extracted: Benito Donsión, Head of Digital Marketing Performance chez SFR et membre du jury des Mobiles d’Or a exprimé au moment de la remise du prix : « Mes sincères félicitations au gagnant de ce prestigieux Prix, dont l’utilisation experte du Marketing Automation démontre une véritable passion pour l’utilisateur, une maîtrise exceptionnelle de la Data et une automatisation efficace de l’ensemble du processus. En outre, le lauréat a su avec brio transmettre sa philosophie et expliquer les résultats obtenus, témoignant ainsi d’un engagement absolu envers l’excellence. Bravo pour cette performance exceptionnelle et inspirante ! »#MarketingAutomation #MobilesdOr2023 Les Cas d'OR du Digital Pascal Gayat ABDERRAZAK ECHANDOURI, JOUMANA BARAKA  Mounir BOUCHIHA,
+2023-05-28 17:42:44,394 [INFO] Keywords extracted: ! »#MarketingAutomation #MobilesdOr2023 Les
+2023-05-28 17:42:44,394 [INFO] Post inserted
+2023-05-28 17:42:44,632 [INFO] Clicked on stats_button
+2023-05-28 17:42:44,665 [INFO] Stats elements found
+2023-05-28 17:42:45,232 [INFO] Stats values extracted: {'impression': 2596.0, 'click_rate': 6.01, 'comment': 0, 'repost': 1, 'click': 156, 'engagement': 8.09, 'stat_title': '', 'value': ''}
+2023-05-28 17:42:45,233 [INFO] Stats inserted
+2023-05-28 17:42:45,394 [INFO] Clicked on react_button
+2023-05-28 17:42:46,293 [INFO] Reactions values extracted: {'nb_like': 34, 'nb_love': 4, 'nb_support': 1, 'nb_celebrate': 14, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 17:42:46,293 [INFO] reaction insered
+2023-05-28 17:42:46,446 [INFO] Clicked on close_button
+2023-05-28 17:42:46,446 [INFO] Updated initialScroll: 9000, finalScroll: 9900
+2023-05-28 17:42:46,447 [INFO] Container added to found_elements
+2023-05-28 17:42:46,447 [INFO] Iteration 8 of the posts loop
+2023-05-28 17:42:46,523 [INFO] Date box element found
+2023-05-28 17:42:46,554 [INFO] Date extracted: ['3/29/2023']
+2023-05-28 17:42:46,555 [INFO] Date converted: 2023-03-29
+2023-05-28 17:42:46,573 [INFO] Text box element found
+2023-05-28 17:42:46,590 [INFO] Text element found
+2023-05-28 17:42:46,619 [INFO] Keywords extracted: exceptionnel.#MarketingAutomation #MobilesdOr2023
+2023-05-28 17:42:46,621 [INFO] Post inserted
+2023-05-28 17:42:46,771 [INFO] Clicked on stats_button
+2023-05-28 17:42:46,798 [INFO] Stats elements found
+2023-05-28 17:42:47,237 [INFO] Stats values extracted: {'impression': 8971.0, 'click_rate': 11.66, 'comment': 20, 'repost': 2, 'click': 1046, 'engagement': 13.81, 'stat_title': '', 'value': ''}
+2023-05-28 17:42:47,237 [INFO] Stats inserted
+2023-05-28 17:42:47,450 [INFO] Clicked on react_button
+2023-05-28 17:42:48,403 [INFO] Reactions values extracted: {'nb_like': 116, 'nb_love': 17, 'nb_support': 2, 'nb_celebrate': 36, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 17:42:48,404 [INFO] reaction insered
+2023-05-28 17:42:48,532 [INFO] Clicked on close_button
+2023-05-28 17:42:48,532 [INFO] Updated initialScroll: 9900, finalScroll: 10800
+2023-05-28 17:42:48,533 [INFO] Container added to found_elements
+2023-05-28 17:42:48,533 [INFO] Iteration 9 of the posts loop
+2023-05-28 17:42:48,614 [INFO] Date box element found
+2023-05-28 17:42:48,644 [INFO] Date extracted: ['3/14/2023']
+2023-05-28 17:42:48,644 [INFO] Date converted: 2023-03-14
+2023-05-28 17:42:48,662 [INFO] Text box element found
+2023-05-28 17:42:48,678 [INFO] Text element found
+2023-05-28 17:42:48,703 [INFO] Text extracted: "La digitalisation va au-delà de l'adoption de technologies. Elle requiert une compréhension profonde de l'environnement des entreprises, leur capacité à briser les silos organisationnels et à comprendre les besoins de leurs utilisateurs. Pour offrir une expérience client cohérente et rentable, les entreprises devraient adopter une approche holistique appelée "Total Experience"Découvrez l'intégralité de l'interview de Mounir BOUCHIHA, Directeur Général de Gear9 avec La Nouvelle Tribune : #TotalExperience #customercentric  #ExpérienceClient#transformationdigitale #digitalisation #CX #TX
+2023-05-28 17:42:48,704 [INFO] Keywords extracted: #TotalExperience #customercentric #ExpérienceClient#transformationdigitale #digitalisation #CX #TX
+2023-05-28 17:42:48,705 [INFO] Post inserted
+2023-05-28 17:42:48,892 [INFO] Clicked on stats_button
+2023-05-28 17:42:48,927 [INFO] Stats elements found
+2023-05-28 17:42:49,641 [INFO] Stats values extracted: {'impression': 6742.0, 'click_rate': 4.79, 'comment': 4, 'repost': 2, 'click': 323, 'engagement': 7.59, 'stat_title': '', 'value': ''}
+2023-05-28 17:42:49,642 [INFO] Stats inserted
+2023-05-28 17:42:49,832 [INFO] Clicked on react_button
+2023-05-28 17:42:50,676 [INFO] Reactions values extracted: {'nb_like': 144, 'nb_love': 16, 'nb_support': 1, 'nb_celebrate': 22, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 17:42:50,676 [INFO] reaction insered
+2023-05-28 17:42:50,807 [INFO] Clicked on close_button
+2023-05-28 17:42:50,807 [INFO] Updated initialScroll: 10800, finalScroll: 11700
+2023-05-28 17:42:50,808 [INFO] Container added to found_elements
+2023-05-28 17:42:50,808 [INFO] Iteration 10 of the posts loop
+2023-05-28 17:42:50,877 [INFO] Date box element found
+2023-05-28 17:42:50,909 [INFO] Date extracted: ['3/4/2023']
+2023-05-28 17:42:50,910 [INFO] Date converted: 2023-03-04
+2023-05-28 17:42:50,927 [INFO] Text box element found
+2023-05-28 17:42:50,947 [INFO] Text element found
+2023-05-28 17:42:50,974 [INFO] Keywords extracted: Maroc#ADSGAM #DoubleConsécration #MoroccanDigitalAwards #ExpérienceClient #MadeInMorocco #Innovation #DigitalTrends#CX #CRM #data #Analytics #BigData #BestDigital #BestInnovation
+2023-05-28 17:42:50,974 [INFO] Post inserted
+2023-05-28 17:42:51,104 [INFO] Clicked on stats_button
+2023-05-28 17:42:51,125 [INFO] Stats elements found
+2023-05-28 17:42:51,558 [INFO] Stats values extracted: {'impression': 2195.0, 'click_rate': 12.39, 'comment': 0, 'repost': 9, 'click': 272, 'engagement': 15.99, 'stat_title': '', 'value': ''}
+2023-05-28 17:42:51,559 [INFO] Stats inserted
+2023-05-28 17:42:51,697 [INFO] Clicked on react_button
+2023-05-28 17:42:52,570 [INFO] Reactions values extracted: {'nb_like': 46, 'nb_love': 13, 'nb_support': 0, 'nb_celebrate': 11, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 17:42:52,570 [INFO] reaction insered
+2023-05-28 17:42:52,721 [INFO] Clicked on close_button
+2023-05-28 17:42:52,721 [INFO] Updated initialScroll: 11700, finalScroll: 12600
+2023-05-28 17:42:52,721 [INFO] Container added to found_elements
+2023-05-28 17:42:52,722 [INFO] Iteration 11 of the posts loop
+2023-05-28 17:42:52,766 [INFO] Date box element found
+2023-05-28 17:42:52,860 [INFO] Date extracted: ['3/3/2023']
+2023-05-28 17:42:52,860 [INFO] Date converted: 2023-03-03
+2023-05-28 17:42:52,876 [INFO] Text box element found
+2023-05-28 17:42:52,892 [INFO] Text element found
+2023-05-28 17:42:52,914 [INFO] Text extracted: Keynote : ChatGPT, Dall-e Midjourney : How Generative AI & 3D will change advertising and creativity foreverIn just a few short months, Generative AI has already started to revolutionize the way we create content. With new tools like DALL-E Open Ai Midjourney, ChatGPT AI, and Bard, brands and agencies are now able to create highly detailed visual assets and texts in a matter of seconds.Imagine being able to design a photorealistic image or video in any style, just by entering a text prompt. Or using ChatGPT as a coach for your marketing strategy or business plan. The possibilities are endless, and the potential for increased efficiency and creativity is huge.But with this new technology comes both risks and opportunities. In this session, Emmanuel Vivier Co-Founder of HUB Institute (Digital & Positive Impact accelerator), drived us into the potential solutions and implications of Generative AI for marketing and creativity.We explored this exciting new technology and its potential impact on the marketing industry. Let's leverage Generative AI to take your marketing strategy to the next level !#Gear9ATADS #adsgam #AfricanDIgitalSummit
+2023-05-28 17:42:52,916 [INFO] Keywords extracted: !#Gear9ATADS #adsgam #AfricanDIgitalSummit
+2023-05-28 17:42:52,916 [INFO] Post inserted
+2023-05-28 17:42:53,071 [INFO] Clicked on stats_button
+2023-05-28 17:42:53,097 [INFO] Stats elements found
+2023-05-28 17:42:53,627 [INFO] Stats values extracted: {'impression': 985.0, 'click_rate': 6.7, 'comment': 0, 'repost': 0, 'click': 66, 'engagement': 8.02, 'stat_title': '', 'value': ''}
+2023-05-28 17:42:53,627 [INFO] Stats inserted
+2023-05-28 17:42:53,792 [INFO] Clicked on react_button
+2023-05-28 17:42:54,801 [INFO] Reactions values extracted: {'nb_like': 13, 'nb_love': 0, 'nb_support': 0, 'nb_celebrate': 0, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 17:42:54,801 [INFO] reaction insered
+2023-05-28 17:42:55,049 [INFO] Clicked on close_button
+2023-05-28 17:42:55,049 [INFO] Updated initialScroll: 12600, finalScroll: 13500
+2023-05-28 17:42:55,050 [INFO] Container added to found_elements
+2023-05-28 17:42:55,050 [INFO] Iteration 12 of the posts loop
+2023-05-28 17:42:55,076 [INFO] Date box element found
+2023-05-28 17:42:55,115 [INFO] Date extracted: ['3/3/2023']
+2023-05-28 17:42:55,116 [INFO] Date converted: 2023-03-03
+2023-05-28 17:42:55,133 [INFO] Text box element found
+2023-05-28 17:42:55,153 [INFO] Text element found
+2023-05-28 17:42:55,186 [INFO] Keywords extracted: : https://gear9.ma/#Gear9ATADS #adsgam #AfricanDigitalSummit
+2023-05-28 17:42:55,187 [INFO] Post inserted
+2023-05-28 17:42:55,351 [INFO] Clicked on stats_button
+2023-05-28 17:42:55,375 [INFO] Stats elements found
+2023-05-28 17:42:55,811 [INFO] Stats values extracted: {'impression': 1170.0, 'click_rate': 7.61, 'comment': 0, 'repost': 1, 'click': 89, 'engagement': 9.57, 'stat_title': '', 'value': ''}
+2023-05-28 17:42:55,811 [INFO] Stats inserted
+2023-05-28 17:42:55,934 [INFO] Clicked on react_button
+2023-05-28 17:42:56,687 [INFO] Reactions values extracted: {'nb_like': 21, 'nb_love': 0, 'nb_support': 0, 'nb_celebrate': 1, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 17:42:56,687 [INFO] reaction insered
+2023-05-28 17:42:56,806 [INFO] Clicked on close_button
+2023-05-28 17:42:56,806 [INFO] Updated initialScroll: 13500, finalScroll: 14400
+2023-05-28 17:42:56,807 [INFO] Container added to found_elements
+2023-05-28 17:42:56,807 [INFO] Iteration 13 of the posts loop
+2023-05-28 17:42:56,840 [INFO] Date box element found
+2023-05-28 17:42:56,879 [INFO] Date extracted: ['3/3/2023']
+2023-05-28 17:42:56,879 [INFO] Date converted: 2023-03-03
+2023-05-28 17:42:56,897 [INFO] Text box element found
+2023-05-28 17:42:56,912 [INFO] Text element found
+2023-05-28 17:42:56,933 [INFO] Keywords extracted: #Gear9atADS #adsgam #AfricanDigitalSummit
+2023-05-28 17:42:56,934 [INFO] Post inserted
+2023-05-28 17:42:57,068 [INFO] Clicked on stats_button
+2023-05-28 17:42:57,089 [INFO] Stats elements found
+2023-05-28 17:42:57,680 [INFO] Stats values extracted: {'impression': 1200.0, 'click_rate': 7.75, 'comment': 0, 'repost': 0, 'click': 93, 'engagement': 9.33, 'stat_title': '', 'value': ''}
+2023-05-28 17:42:57,681 [INFO] Stats inserted
+2023-05-28 17:42:57,859 [INFO] Clicked on react_button
+2023-05-28 17:42:58,662 [INFO] Reactions values extracted: {'nb_like': 17, 'nb_love': 2, 'nb_support': 0, 'nb_celebrate': 0, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 17:42:58,663 [INFO] reaction insered
+2023-05-28 17:42:58,773 [INFO] Clicked on close_button
+2023-05-28 17:42:58,774 [INFO] Updated initialScroll: 14400, finalScroll: 15300
+2023-05-28 17:42:58,774 [INFO] Checking if all elements are found
+2023-05-28 17:42:58,774 [INFO] Scrolling the page...
+2023-05-28 17:42:58,821 [INFO] Waiting for new content to load...
+2023-05-28 17:45:01,217 [INFO] info insered
+2023-05-28 17:45:09,665 [INFO] login done
+2023-05-28 17:45:15,255 [INFO] Connextion established to the database
+2023-05-28 17:45:15,255 [INFO] Scrolling the page...
+2023-05-28 17:45:15,263 [INFO] Waiting for new content to load...
+2023-05-28 17:45:20,275 [INFO] Found 0 new elements
+2023-05-28 17:45:22,519 [INFO] Closed cursor_obj, connection, and driver
+2023-05-28 17:45:48,308 [INFO] info insered
+2023-05-28 17:45:54,579 [INFO] login done
+2023-05-28 17:46:00,247 [INFO] Connextion established to the database
+2023-05-28 17:46:00,248 [INFO] Scrolling the page...
+2023-05-28 17:46:00,253 [INFO] Waiting for new content to load...
+2023-05-28 17:46:10,264 [INFO] Found 0 new elements
+2023-05-28 17:46:12,480 [INFO] Closed cursor_obj, connection, and driver
+2023-05-28 17:48:50,632 [INFO] info insered
+2023-05-28 17:48:59,340 [INFO] login done
+2023-05-28 17:49:04,919 [INFO] Connextion established to the database
+2023-05-28 17:49:04,919 [INFO] Scrolling the page...
+2023-05-28 17:49:04,924 [INFO] Waiting for new content to load...
+2023-05-28 17:49:14,935 [INFO] Found 0 new elements
+2023-05-28 17:49:17,190 [INFO] Closed cursor_obj, connection, and driver
+2023-05-28 17:49:35,555 [INFO] info insered
+2023-05-28 17:49:38,640 [INFO] login done
+2023-05-28 17:49:43,802 [INFO] Connextion established to the database
+2023-05-28 17:49:43,803 [INFO] Scrolling the page...
+2023-05-28 17:49:43,814 [INFO] Waiting for new content to load...
+2023-05-28 17:50:00,192 [INFO] info insered
+2023-05-28 17:50:09,088 [INFO] login done
+2023-05-28 17:50:15,117 [INFO] Connextion established to the database
+2023-05-28 17:50:15,117 [INFO] Scrolling the page...
+2023-05-28 17:50:15,122 [INFO] Waiting for new content to load...
+2023-05-28 17:50:25,133 [INFO] Found 3 new elements
+2023-05-28 17:50:25,134 [INFO] Container added to found_elements
+2023-05-28 17:50:25,134 [INFO] Iteration 1 of the posts loop
+2023-05-28 17:50:25,142 [INFO] Date box element found
+2023-05-28 17:50:25,170 [INFO] Date extracted: ['5/28/2023']
+2023-05-28 17:50:25,173 [INFO] Date converted: 2023-05-28
+2023-05-28 17:50:25,181 [INFO] Text box element found
+2023-05-28 17:50:25,190 [INFO] Text element found
+2023-05-28 17:50:25,209 [INFO] Keywords extracted: #Gear9atGitex #SalesforceatGitex #Gear9PartnerSalesforce #GITEXAFRICA #APEBI #DigitalTransformation #TechOpportunities #future #africa #business #team #growth #salesforce
+2023-05-28 17:50:25,210 [INFO] Post inserted
+2023-05-28 17:50:25,405 [INFO] Clicked on stats_button
+2023-05-28 17:50:25,460 [INFO] Stats elements found
+2023-05-28 17:50:25,664 [INFO] Stats values extracted: {'impression': 332.0, 'click_rate': 17.47, 'comment': 0, 'repost': 1, 'click': 58, 'engagement': 20.48, 'stat_title': '', 'value': ''}
+2023-05-28 17:50:25,664 [INFO] Stats inserted
+2023-05-28 17:50:25,755 [INFO] Clicked on react_button
+2023-05-28 17:50:26,124 [INFO] Reactions values extracted: {'nb_like': 4, 'nb_love': 5, 'nb_support': 0, 'nb_celebrate': 0, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 17:50:26,124 [INFO] reaction insered
+2023-05-28 17:50:26,405 [INFO] Clicked on close_button
+2023-05-28 17:50:26,406 [INFO] Updated initialScroll: 900, finalScroll: 1800
+2023-05-28 17:50:26,406 [INFO] Container added to found_elements
+2023-05-28 17:50:26,407 [INFO] Iteration 2 of the posts loop
+2023-05-28 17:50:26,418 [INFO] Date box element found
+2023-05-28 17:50:26,440 [INFO] Date extracted: ['5/24/2023']
+2023-05-28 17:50:26,441 [INFO] Date converted: 2023-05-24
+2023-05-28 17:50:26,451 [INFO] Text box element found
+2023-05-28 17:50:26,460 [INFO] Text element found
+2023-05-28 17:50:26,475 [INFO] Text extracted: Calling all tech enthusiasts !Only 7 days left for GITEX AFRICA, the continent's largest tech event, and Salesforce x Gear9 are thrilled to be a part of it !Visit us at Hall 10 - Pavilion APEBI, Stand 10C-10 to meet our team of digital experts.Don't miss the chance to meet our team and explore the future of digital transformation. See you there !#Gear9atGitex #SalesforceatGitex #Gear9PartnerSalesforce #GITEXAFRICA #APEBI #DigitalTransformation #TechOpportunities
+2023-05-28 17:50:26,475 [INFO] Keywords extracted: !#Gear9atGitex #SalesforceatGitex #Gear9PartnerSalesforce #GITEXAFRICA #APEBI #DigitalTransformation #TechOpportunities
+2023-05-28 17:50:26,476 [INFO] Post inserted
+2023-05-28 17:50:26,554 [INFO] Clicked on stats_button
+2023-05-28 17:50:26,570 [INFO] Stats elements found
+2023-05-28 17:50:26,774 [INFO] Stats values extracted: {'impression': 804.0, 'click_rate': 3.98, 'comment': 0, 'repost': 10, 'click': 32, 'engagement': 11.19, 'stat_title': '', 'value': ''}
+2023-05-28 17:50:26,775 [INFO] Stats inserted
+2023-05-28 17:50:26,871 [INFO] Clicked on react_button
+2023-05-28 17:50:27,231 [INFO] Reactions values extracted: {'nb_like': 38, 'nb_love': 7, 'nb_support': 3, 'nb_celebrate': 0, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 17:50:27,232 [INFO] reaction insered
+2023-05-28 17:50:27,383 [INFO] Clicked on close_button
+2023-05-28 17:50:27,384 [INFO] Updated initialScroll: 1800, finalScroll: 2700
+2023-05-28 17:50:27,384 [INFO] Container added to found_elements
+2023-05-28 17:50:27,384 [INFO] Iteration 3 of the posts loop
+2023-05-28 17:50:27,399 [INFO] Date box element found
+2023-05-28 17:50:27,416 [INFO] Date extracted: ['5/22/2023']
+2023-05-28 17:50:27,417 [INFO] Date converted: 2023-05-22
+2023-05-28 17:50:27,426 [INFO] Text box element found
+2023-05-28 17:50:27,433 [INFO] Text element found
+2023-05-28 17:50:27,449 [INFO] Keywords extracted: #innovation #digital #webdesign #CX
+2023-05-28 17:50:27,449 [INFO] Post inserted
+2023-05-28 17:50:27,519 [INFO] Clicked on stats_button
+2023-05-28 17:50:27,537 [INFO] Stats elements found
+2023-05-28 17:50:27,796 [INFO] Stats values extracted: {'impression': 1417.0, 'click_rate': 5.5, 'comment': 0, 'repost': 0, 'click': 78, 'engagement': 8.05, 'stat_title': '', 'value': ''}
+2023-05-28 17:50:27,796 [INFO] Stats inserted
+2023-05-28 17:50:27,885 [INFO] Clicked on react_button
+2023-05-28 17:50:28,243 [INFO] Reactions values extracted: {'nb_like': 24, 'nb_love': 5, 'nb_support': 2, 'nb_celebrate': 5, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 17:50:28,244 [INFO] reaction insered
+2023-05-28 17:50:28,383 [INFO] Clicked on close_button
+2023-05-28 17:50:28,383 [INFO] Updated initialScroll: 2700, finalScroll: 3600
+2023-05-28 17:50:28,383 [INFO] Checking if all elements are found
+2023-05-28 17:50:28,384 [INFO] Scrolling the page...
+2023-05-28 17:50:28,393 [INFO] Waiting for new content to load...
+2023-05-28 18:01:12,224 [INFO] info insered
+2023-05-28 18:01:15,301 [INFO] login done
+2023-05-28 18:01:20,012 [INFO] Connextion established to the database
+2023-05-28 18:01:20,013 [INFO] Scrolling the page...
+2023-05-28 18:01:20,102 [INFO] Waiting for new content to load...
+2023-05-28 18:01:30,114 [INFO] Found 0 new elements
+2023-05-28 18:01:32,304 [INFO] Closed cursor_obj, connection, and driver
+2023-05-28 18:01:43,732 [INFO] info insered
+2023-05-28 18:01:46,764 [INFO] login done
+2023-05-28 18:01:51,384 [INFO] Connextion established to the database
+2023-05-28 18:01:51,384 [INFO] Scrolling the page...
+2023-05-28 18:01:51,390 [INFO] Waiting for new content to load...
+2023-05-28 18:03:18,736 [INFO] info insered
+2023-05-28 18:03:21,648 [INFO] login done
+2023-05-28 18:03:26,154 [INFO] Connextion established to the database
+2023-05-28 18:03:26,155 [INFO] Scrolling the page...
+2023-05-28 18:03:26,162 [INFO] Waiting for new content to load...
+2023-05-28 18:03:52,728 [INFO] info insered
+2023-05-28 18:04:08,941 [INFO] login done
+2023-05-28 18:04:17,246 [INFO] Connextion established to the database
+2023-05-28 18:04:17,247 [INFO] Scrolling the page...
+2023-05-28 18:04:17,256 [INFO] Waiting for new content to load...
+2023-05-28 18:04:27,269 [INFO] Found 3 new elements
+2023-05-28 18:04:27,269 [INFO] Container added to found_elements
+2023-05-28 18:04:27,270 [INFO] Iteration 1 of the posts loop
+2023-05-28 18:04:27,283 [INFO] Date box element found
+2023-05-28 18:04:27,312 [INFO] Date extracted: ['5/28/2023']
+2023-05-28 18:04:27,315 [INFO] Date converted: 2023-05-28
+2023-05-28 18:04:27,328 [INFO] Text box element found
+2023-05-28 18:04:27,339 [INFO] Text element found
+2023-05-28 18:04:27,362 [INFO] Keywords extracted: #Gear9atGitex #SalesforceatGitex #Gear9PartnerSalesforce #GITEXAFRICA #APEBI #DigitalTransformation #TechOpportunities #future #africa #business #team #growth #salesforce
+2023-05-28 18:04:27,363 [INFO] Post inserted
+2023-05-28 18:04:27,572 [INFO] Clicked on stats_button
+2023-05-28 18:04:27,636 [INFO] Stats elements found
+2023-05-28 18:04:27,860 [INFO] Stats values extracted: {'impression': 395.0, 'click_rate': 17.47, 'comment': 0, 'repost': 1, 'click': 69, 'engagement': 20.0, 'stat_title': '', 'value': ''}
+2023-05-28 18:04:27,860 [INFO] Stats inserted
+2023-05-28 18:04:27,956 [INFO] Clicked on react_button
+2023-05-28 18:04:28,402 [INFO] Reactions values extracted: {'nb_like': 4, 'nb_love': 5, 'nb_support': 0, 'nb_celebrate': 0, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 18:04:28,402 [INFO] reaction insered
+2023-05-28 18:04:28,516 [INFO] Clicked on close_button
+2023-05-28 18:04:28,516 [INFO] Updated initialScroll: 900, finalScroll: 1800
+2023-05-28 18:04:28,517 [INFO] Container added to found_elements
+2023-05-28 18:04:28,517 [INFO] Iteration 2 of the posts loop
+2023-05-28 18:04:28,526 [INFO] Date box element found
+2023-05-28 18:04:28,547 [INFO] Date extracted: ['5/24/2023']
+2023-05-28 18:04:28,548 [INFO] Date converted: 2023-05-24
+2023-05-28 18:04:28,558 [INFO] Text box element found
+2023-05-28 18:04:28,564 [INFO] Text element found
+2023-05-28 18:04:28,579 [INFO] Text extracted: Calling all tech enthusiasts !Only 7 days left for GITEX AFRICA, the continent's largest tech event, and Salesforce x Gear9 are thrilled to be a part of it !Visit us at Hall 10 - Pavilion APEBI, Stand 10C-10 to meet our team of digital experts.Don't miss the chance to meet our team and explore the future of digital transformation. See you there !#Gear9atGitex #SalesforceatGitex #Gear9PartnerSalesforce #GITEXAFRICA #APEBI #DigitalTransformation #TechOpportunities
+2023-05-28 18:04:28,580 [INFO] Keywords extracted: !#Gear9atGitex #SalesforceatGitex #Gear9PartnerSalesforce #GITEXAFRICA #APEBI #DigitalTransformation #TechOpportunities
+2023-05-28 18:04:28,580 [INFO] Post inserted
+2023-05-28 18:04:28,655 [INFO] Clicked on stats_button
+2023-05-28 18:04:28,675 [INFO] Stats elements found
+2023-05-28 18:04:28,887 [INFO] Stats values extracted: {'impression': 805.0, 'click_rate': 4.1, 'comment': 0, 'repost': 10, 'click': 33, 'engagement': 11.3, 'stat_title': '', 'value': ''}
+2023-05-28 18:04:28,887 [INFO] Stats inserted
+2023-05-28 18:04:28,986 [INFO] Clicked on react_button
+2023-05-28 18:04:29,386 [INFO] Reactions values extracted: {'nb_like': 38, 'nb_love': 7, 'nb_support': 3, 'nb_celebrate': 0, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 18:04:29,386 [INFO] reaction insered
+2023-05-28 18:04:29,495 [INFO] Clicked on close_button
+2023-05-28 18:04:29,496 [INFO] Updated initialScroll: 1800, finalScroll: 2700
+2023-05-28 18:04:29,496 [INFO] Container added to found_elements
+2023-05-28 18:04:29,497 [INFO] Iteration 3 of the posts loop
+2023-05-28 18:04:29,543 [INFO] Date box element found
+2023-05-28 18:04:29,593 [INFO] Date extracted: ['5/22/2023']
+2023-05-28 18:04:29,594 [INFO] Date converted: 2023-05-22
+2023-05-28 18:04:29,603 [INFO] Text box element found
+2023-05-28 18:04:29,612 [INFO] Text element found
+2023-05-28 18:04:29,628 [INFO] Keywords extracted: #innovation #digital #webdesign #CX
+2023-05-28 18:04:29,628 [INFO] Post inserted
+2023-05-28 18:04:29,712 [INFO] Clicked on stats_button
+2023-05-28 18:04:29,726 [INFO] Stats elements found
+2023-05-28 18:04:29,932 [INFO] Stats values extracted: {'impression': 1418.0, 'click_rate': 5.57, 'comment': 0, 'repost': 0, 'click': 79, 'engagement': 8.11, 'stat_title': '', 'value': ''}
+2023-05-28 18:04:29,933 [INFO] Stats inserted
+2023-05-28 18:04:30,058 [INFO] Clicked on react_button
+2023-05-28 18:04:30,334 [INFO] Reactions values extracted: {'nb_like': 24, 'nb_love': 5, 'nb_support': 2, 'nb_celebrate': 5, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 18:04:30,335 [INFO] reaction insered
+2023-05-28 18:04:30,428 [INFO] Clicked on close_button
+2023-05-28 18:04:30,428 [INFO] Updated initialScroll: 2700, finalScroll: 3600
+2023-05-28 18:04:30,428 [INFO] Checking if all elements are found
+2023-05-28 18:04:30,429 [INFO] Scrolling the page...
+2023-05-28 18:04:30,441 [INFO] Waiting for new content to load...
+2023-05-28 18:04:40,450 [INFO] Found 13 new elements
+2023-05-28 18:04:40,451 [INFO] Updated initialScroll: 3600, finalScroll: 4500
+2023-05-28 18:04:40,451 [INFO] Updated initialScroll: 4500, finalScroll: 5400
+2023-05-28 18:04:40,452 [INFO] Updated initialScroll: 5400, finalScroll: 6300
+2023-05-28 18:04:40,452 [INFO] Container added to found_elements
+2023-05-28 18:04:40,452 [INFO] Iteration 4 of the posts loop
+2023-05-28 18:04:40,462 [INFO] Date box element found
+2023-05-28 18:04:40,478 [INFO] Date extracted: ['5/17/2023']
+2023-05-28 18:04:40,479 [INFO] Date converted: 2023-05-17
+2023-05-28 18:04:40,485 [INFO] Text box element found
+2023-05-28 18:04:40,492 [INFO] Text element found
+2023-05-28 18:04:40,504 [INFO] Keywords extracted: Ouchene#Gear9atGitex #SalesforceatGitex #Gear9PartnerSalesforce #GITEXAFRICA #APEBI #DigitalTransformation #TechOpportunities
+2023-05-28 18:04:40,504 [INFO] Post inserted
+2023-05-28 18:04:40,585 [INFO] Clicked on stats_button
+2023-05-28 18:04:40,593 [INFO] Stats elements found
+2023-05-28 18:04:40,756 [INFO] Stats values extracted: {'impression': 1308.0, 'click_rate': 6.35, 'comment': 0, 'repost': 7, 'click': 83, 'engagement': 11.39, 'stat_title': '', 'value': ''}
+2023-05-28 18:04:40,756 [INFO] Stats inserted
+2023-05-28 18:04:40,846 [INFO] Clicked on react_button
+2023-05-28 18:04:41,439 [INFO] Reactions values extracted: {'nb_like': 42, 'nb_love': 7, 'nb_support': 3, 'nb_celebrate': 7, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 18:04:41,440 [INFO] reaction insered
+2023-05-28 18:04:41,550 [INFO] Clicked on close_button
+2023-05-28 18:04:41,552 [INFO] Updated initialScroll: 6300, finalScroll: 7200
+2023-05-28 18:04:41,552 [INFO] Container added to found_elements
+2023-05-28 18:04:41,552 [INFO] Iteration 5 of the posts loop
+2023-05-28 18:04:41,563 [INFO] Date box element found
+2023-05-28 18:04:41,584 [INFO] Date extracted: ['5/14/2023']
+2023-05-28 18:04:41,584 [INFO] Date converted: 2023-05-14
+2023-05-28 18:04:41,593 [INFO] Text box element found
+2023-05-28 18:04:41,602 [INFO] Text element found
+2023-05-28 18:04:41,615 [INFO] Text extracted: Notre passion pour l'innovation continue à être récompensée ! Nous sommes fiers de vous annoncer que notre projet Inwi.ma co-construit avec inwi a remporté le prestigieux Prix Webdesign aux Impériales 2023. Nous tenons à remercier inwi pour son soutien et nos forces vives  pour leur engagement sans faille au service des consommateurs. Cette reconnaissance renforce notre engagement à offrir des expériences digitales uniques qui placent la CX au cœur de tout ce que nous réalisons. Les Impériales #PrixWebdesign #inwi #Innovation #CX #Impériales2023 #DigitalExperience
+2023-05-28 18:04:41,616 [INFO] Keywords extracted: #PrixWebdesign #inwi #Innovation #CX #Impériales2023 #DigitalExperience
+2023-05-28 18:04:41,616 [INFO] Post inserted
+2023-05-28 18:04:41,707 [INFO] Clicked on stats_button
+2023-05-28 18:04:41,724 [INFO] Stats elements found
+2023-05-28 18:04:41,970 [INFO] Stats values extracted: {'impression': 2655.0, 'click_rate': 12.81, 'comment': 3, 'repost': 2, 'click': 340, 'engagement': 14.95, 'stat_title': '', 'value': ''}
+2023-05-28 18:04:41,971 [INFO] Stats inserted
+2023-05-28 18:04:42,080 [INFO] Clicked on react_button
+2023-05-28 18:04:42,711 [INFO] Reactions values extracted: {'nb_like': 34, 'nb_love': 10, 'nb_support': 1, 'nb_celebrate': 7, 'nb_insightful': 0, 'nb_funny': 0}
+2023-05-28 18:04:42,712 [INFO] reaction insered
+2023-05-28 18:04:42,841 [INFO] Clicked on close_button
+2023-05-28 18:04:42,842 [INFO] Updated initialScroll: 7200, finalScroll: 8100
+2023-05-28 18:04:42,842 [INFO] Container added to found_elements
+2023-05-28 18:04:42,842 [INFO] Iteration 6 of the posts loop
+2023-05-28 18:04:42,856 [INFO] Date box element found
+2023-05-28 18:04:42,878 [INFO] Date extracted: ['5/11/2023']
+2023-05-28 18:04:42,879 [INFO] Date converted: 2023-05-11
+2023-05-28 18:04:42,890 [INFO] Text box element found
+2023-05-28 18:04:42,896 [INFO] Text element found
+2023-05-28 18:04:42,913 [INFO] Keywords extracted: #coupdecoeurdujury #experienceclient #CX
+2023-05-28 18:04:42,913 [INFO] Post inserted
+2023-05-28 18:04:43,024 [INFO] Clicked on stats_button
+2023-05-28 18:04:43,041 [INFO] Stats elements found
+2023-05-28 18:04:43,288 [INFO] Stats values extracted: {'impression': 3172.0, 'click_rate': 31.9, 'comment': 2, 'repost': 7, 'click': 1012, 'engagement': 34.84, 'stat_title': '', 'value': ''}
+2023-05-28 18:04:43,288 [INFO] Stats inserted
+2023-05-28 18:04:43,424 [INFO] Clicked on react_button
+2023-05-28 18:04:54,352 [INFO] info insered
+2023-05-28 18:05:10,573 [INFO] login done
+2023-05-28 18:10:21,444 [INFO] info insered
+2023-05-28 18:10:37,591 [INFO] login done
+2023-05-28 18:11:38,931 [INFO] info insered
+2023-05-28 18:11:46,905 [INFO] login done
+2023-05-28 18:11:51,511 [INFO] Connextion established to the database
+2023-05-28 18:11:51,513 [INFO] Scrolling the page...
+2023-05-28 18:11:51,520 [INFO] Waiting for new content to load...
+2023-05-28 18:13:21,492 [INFO] info insered
+2023-05-28 18:13:29,431 [INFO] you need to solve the puzzle
+2023-05-28 18:18:06,356 [INFO] insert email info
+2023-05-28 18:18:06,431 [INFO] insert password info
+2023-05-28 18:18:07,405 [INFO] accessing to the home page
+2023-05-28 18:18:14,411 [INFO] you need to solve the puzzle
+2023-05-28 19:08:19,493 [INFO] insert email info
+2023-05-28 19:08:19,596 [INFO] insert password info
+2023-05-28 19:08:20,483 [INFO] accessing to the home page
+2023-05-28 19:08:27,490 [INFO] you need to solve the puzzle
+2023-05-28 19:09:42,379 [INFO] insert email info
+2023-05-28 19:09:42,455 [INFO] insert password info
+2023-05-28 19:09:43,452 [INFO] accessing to the home page
+2023-05-28 19:10:34,838 [INFO] insert email info
+2023-05-28 19:10:34,914 [INFO] insert password info
+2023-05-28 19:10:35,853 [INFO] accessing to the home page

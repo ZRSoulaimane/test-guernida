@@ -1,0 +1,34 @@
+version: '3'
+services:
+  myapp:
+    build:
+      context: /execution
+      dockerfile: Dockerfile
+    volumes:
+      - /execution/:/opt/execution/
+    ports:
+      - 8000:8000
+    environment:
+      - DISPLAY=:99
+    depends_on:
+      - selenium
+  selenium:
+    image: selenium/standalone-chrome:94.0
+    ports:
+      - 4444:4444
+  db:
+    image: postgres:latest
+    environment:
+      - PGHOST=host.docker.internal
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=salma
+      - POSTGRES_DB=guernida
+      - PGPORT=5432
+    ports:
+      - 5432:5432
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge
