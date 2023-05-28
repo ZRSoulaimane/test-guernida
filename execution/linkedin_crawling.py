@@ -42,7 +42,7 @@ def get_chromedriver():
 
     return webdriver.Chrome(options=chrome_options)
 
-def connexion(driver):
+def connexions(driver):
     connexion = dotenv_values("connexion.env")
     time.sleep(3)
     email = connexion["EMAIL"]
@@ -56,6 +56,17 @@ def connexion(driver):
     logging.info('insert password info')
     elem.send_keys(Keys.RETURN)
 
+def database_connexion():
+    connection = psycopg2.connect(
+            host='host.docker.internal',
+            port='5432',
+            user='postgres',
+            password='salma',
+            database='guernida'
+        )
+    
+    return connection.cursor()
+
 
 def crawl_linkedin_posts():
     driver = get_chromedriver()
@@ -63,7 +74,7 @@ def crawl_linkedin_posts():
     driver.execute_script("window.scrollBy(0,300)","")
 
     logging.info('accessing to the home page')
-    connexion(driver)
+    connexions(driver)
     
     time.sleep(7)
     if "/checkpoint/challenge" in driver.current_url:
@@ -75,15 +86,7 @@ def crawl_linkedin_posts():
 
     driver.get('https://www.linkedin.com/company/14051854/admin/')
 
-    # connection = psycopg2.connect(
-    #         host='host.docker.internal',
-    #         port='5432',
-    #         user='postgres',
-    #         password='salma',
-    #         database='guernida'
-    #     )
-    
-    # cursor_obj = connection.cursor()
+    # cursor_obj = database_connexion()
 
     logging.info('Connextion established to the database')
 
