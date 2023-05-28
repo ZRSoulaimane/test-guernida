@@ -242,9 +242,4 @@ def crawl_linkedin_posts():
     driver.quit()
     logging.info("Closed cursor_obj, connection, and driver")
 
-    return posts
-
-
-if __name__ == "__main__":
-    crawled_posts = crawl_linkedin_posts()
-    print(crawled_posts)
+    # return posts
