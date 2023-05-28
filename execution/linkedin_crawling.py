@@ -11,7 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 import logging
 from selenium.webdriver.common.keys import Keys
-
+from extract_stats_reaction import *
 
 
 # Configure the logging settings
@@ -23,88 +23,6 @@ logging.basicConfig(
         logging.StreamHandler()  # Print logs to console
     ]
 )
-
-def extract_reaction_values(reactions):
-    """
-    Extracts the values of different reactions from a list of reaction elements.
-    
-    Args:
-        reactions (list): List of reaction elements.
-    
-    Returns:
-        dict: Dictionary containing the counts of different reactions.
-    """
-    reaction_dict = {
-        'nb_like': 0,
-        'nb_love': 0,
-        'nb_support': 0,
-        'nb_celebrate': 0,
-        'nb_insightful': 0,
-        'nb_funny': 0
-    }
-
-    for reaction in reactions:
-        span_tags = reaction.findAll("span")
-        nb_react = int(span_tags[1].text.strip())
-        img_react = span_tags[0].find("img")
-        react_name = img_react["alt"]
-
-        if react_name == 'like':
-            reaction_dict['nb_like'] = nb_react
-        elif react_name == 'love':
-            reaction_dict['nb_love'] = nb_react
-        elif react_name == 'support':
-            reaction_dict['nb_support'] = nb_react
-        elif react_name == 'celebrate':
-            reaction_dict['nb_celebrate'] = nb_react
-        elif react_name == 'insightful':
-            reaction_dict['nb_insightful'] = nb_react
-        elif react_name == 'funny':
-            reaction_dict['nb_funny'] = nb_react
-
-    return reaction_dict
-
-def extract_stats_values(stats):
-    """
-    Extracts the values of different stats from a list of stat elements.
-    
-    Args:
-        stats (list): List of stat elements.
-    
-    Returns:
-        dict: Dictionary containing the values of different stats.
-    """
-    stats_dict = {
-        'impression': 0,
-        'click_rate': 0,
-        'comment': 0,
-        'repost': 0,
-        'click': 0,
-        'engagement': 0,
-        'stat_title': '',
-        'value': ''
-    }
-
-    for stat in stats:
-        stat_title = stat.find_element(By.TAG_NAME, 'dd').text.strip()
-        value = stat.find_element(By.TAG_NAME, 'dt').text.strip()
-
-        if stat_title == 'Impressions':
-            stats_dict['impression'] = float(re.sub(r',', '', value))
-        elif stat_title == 'Reactions':
-            pass
-        elif stat_title == 'Click-through rate':
-            stats_dict['click_rate'] = float(re.sub(r'%', '', value))
-        elif stat_title == 'Comments':
-            stats_dict['comment'] = int(re.sub(r',', '', value))
-        elif stat_title == 'Reposts' or stat_title == 'Repost':
-            stats_dict['repost'] = int(re.sub(r',', '', value))
-        elif stat_title == 'Clicks':
-            stats_dict['click'] = int(re.sub(r',', '', value))
-        elif stat_title == 'Engagement rate':
-            stats_dict['engagement'] = float(re.sub(r'%', '', value))
-
-    return stats_dict
 
 def get_chromedriver():
     user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:75.0) Gecko/20100101 Firefox/75.0"
@@ -120,16 +38,11 @@ def get_chromedriver():
     chrome_options.add_experimental_option('excludeSwitches', ['enable-logging'])
     chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
     chrome_options.add_experimental_option('useAutomationExtension', False)
-    # chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--headless')
 
     return webdriver.Chrome(options=chrome_options)
 
-
-def crawl_linkedin_posts():
-    driver = get_chromedriver()
-    driver.get('https://www.linkedin.com/login')
-    driver.execute_script("window.scrollBy(0,300)","")
-
+def connexion(driver):
     connexion = dotenv_values("connexion.env")
     time.sleep(3)
     email = connexion["EMAIL"]
@@ -142,8 +55,16 @@ def crawl_linkedin_posts():
     elem.send_keys(conn_password)
     logging.info('insert password info')
     elem.send_keys(Keys.RETURN)
-    logging.info('accessing to the home page')
 
+
+def crawl_linkedin_posts():
+    driver = get_chromedriver()
+    driver.get('https://www.linkedin.com/login')
+    driver.execute_script("window.scrollBy(0,300)","")
+
+    logging.info('accessing to the home page')
+    connexion(driver)
+    
     time.sleep(7)
     if "/checkpoint/challenge" in driver.current_url:
         logging.info("you need to solve the puzzle")
