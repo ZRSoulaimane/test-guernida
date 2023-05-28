@@ -1,17 +1,20 @@
-import regex as re 
+import logging
+import re
 from selenium.webdriver.common.by import By
 
+logging.basicConfig(level=logging.INFO)
 
 def extract_reaction_values(reactions):
     """
     Extracts the values of different reactions from a list of reaction elements.
-    
+
     Args:
         reactions (list): List of reaction elements.
-    
+
     Returns:
         dict: Dictionary containing the counts of different reactions.
     """
+    logging.info("Extracting reaction values...")
     reaction_dict = {
         'nb_like': 0,
         'nb_love': 0,
@@ -40,18 +43,20 @@ def extract_reaction_values(reactions):
         elif react_name == 'funny':
             reaction_dict['nb_funny'] = nb_react
 
+    logging.info("Reaction values extracted successfully.")
     return reaction_dict
 
 def extract_stats_values(stats):
     """
     Extracts the values of different stats from a list of stat elements.
-    
+
     Args:
         stats (list): List of stat elements.
-    
+
     Returns:
         dict: Dictionary containing the values of different stats.
     """
+    logging.info("Extracting stats values...")
     stats_dict = {
         'impression': 0,
         'click_rate': 0,
@@ -82,4 +87,5 @@ def extract_stats_values(stats):
         elif stat_title == 'Engagement rate':
             stats_dict['engagement'] = float(re.sub(r'%', '', value))
 
+    logging.info("Stats values extracted successfully.")
     return stats_dict
