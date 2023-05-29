@@ -33,4 +33,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Set the command to run your Python script
-CMD ["python3", "linkedin_crawling.py"]
+CMD ["python3", "scheduler.py"]

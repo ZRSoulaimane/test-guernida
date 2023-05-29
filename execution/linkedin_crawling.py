@@ -63,7 +63,7 @@ def database_connexion():
             database='guernida'
         )
     
-    return connection.cursor()
+    return connection
 
 
 def crawl_linkedin_posts():
@@ -80,21 +80,21 @@ def crawl_linkedin_posts():
         return
 
     logging.info('login done')
-    time.sleep(4)
+    time.sleep(2)
 
     driver.get('https://www.linkedin.com/company/14051854/admin/')
-
-    # cursor_obj = database_connexion()
+    connection = database_connexion()
+    cursor_obj = connection.cursor()
 
     logging.info('Connextion established to the database')
+    time.sleep(5)
 
-    # keep track of found elements
     found_elements = set() 
 
     posts = []
  
     initialScroll=0
-    finalScroll=900
+    finalScroll=700
     i=0
 
     # scroll the page and find new elements
@@ -106,9 +106,9 @@ def crawl_linkedin_posts():
         driver.execute_script(f"window.scrollTo({initialScroll},{finalScroll})")
         logging.info("Waiting for new content to load...")
         # wait for new content to load
-        time.sleep(10)
+        time.sleep(5)
         # find new elements on the page
-        containers = driver.find_elements(By.XPATH, "//div[contains(@class, 'artdeco-card') and contains(@class, 'mb2')]")
+        containers = driver.find_elements(By.XPATH, "//header[@class='mb4']/following-sibling::div/div/div/div")
         logging.info("Found %s new elements", len(containers))
         for container in containers:
             if container not in found_elements:
@@ -117,10 +117,12 @@ def crawl_linkedin_posts():
 
                 i = i + 1
                 logging.info('Iteration %s of the posts loop', i)
-
                 ##extracting date
-                date_box = container.find_element(By.CSS_SELECTOR,'div.org-update-posted-by-selector')
-                logging.info("Date box element found")
+                try:
+                    date_box = container.find_element(By.CSS_SELECTOR,'div.org-update-posted-by-selector')
+                    logging.info("Date box element found")
+                except:
+                    continue
 
                 date = date_box.find_element(By.CSS_SELECTOR,'span.org-update-posted-by-selector__date').text.split()
                 logging.info("Date extracted: %s", date)
@@ -142,13 +144,13 @@ def crawl_linkedin_posts():
                 keywords = ' '.join(hashtags)
                 logging.info("Keywords extracted: %s", keywords)
 
-                # cursor_obj.execute("INSERT INTO posts (date_pub, contenu, keywords) VALUES (%s, %s, %s) ON CONFLICT (contenu) DO NOTHING", (date_converted,texte_content,keywords,))
-                # connection.commit()
+                cursor_obj.execute("INSERT INTO posts (date_pub, contenu, keywords) VALUES (%s, %s, %s) ON CONFLICT (contenu) DO NOTHING", (date_converted,texte_content,keywords,))
+                connection.commit()
                 logging.info("Post inserted")
 
 
-                # cursor_obj.execute("SELECT post_id FROM posts WHERE contenu = %s", (texte_content,))
-                # post_id = cursor_obj.fetchall()
+                cursor_obj.execute("SELECT post_id FROM posts WHERE contenu = %s", (texte_content,))
+                post_id = cursor_obj.fetchall()
                 
                 #extracting stats
                 #clicking on the button
@@ -163,8 +165,8 @@ def crawl_linkedin_posts():
                 stats_dict = extract_stats_values(stats)
                 logging.info("Stats values extracted: %s", stats_dict)
 
-                # cursor_obj.execute("INSERT INTO impressions (post_id, impressions, click_rate, nb_comments, nb_reposts, nb_click, engagement_rate) VALUES (%s, %s, %s, %s, %s, %s, %s) ON CONFLICT (post_id) DO UPDATE SET impressions = EXCLUDED.impressions, click_rate = EXCLUDED.click_rate, nb_comments = EXCLUDED.nb_comments,nb_reposts = EXCLUDED.nb_reposts, nb_click = EXCLUDED.nb_click, engagement_rate = EXCLUDED.engagement_rate", (post_id[0],stats_dict['impression'],stats_dict['click_rate'],stats_dict['comment'],stats_dict['repost'],stats_dict['click'],stats_dict['engagement']))
-                # connection.commit()
+                cursor_obj.execute("INSERT INTO impressions (post_id, impressions, click_rate, nb_comments, nb_reposts, nb_click, engagement_rate) VALUES (%s, %s, %s, %s, %s, %s, %s) ON CONFLICT (post_id) DO UPDATE SET impressions = EXCLUDED.impressions, click_rate = EXCLUDED.click_rate, nb_comments = EXCLUDED.nb_comments,nb_reposts = EXCLUDED.nb_reposts, nb_click = EXCLUDED.nb_click, engagement_rate = EXCLUDED.engagement_rate", (post_id[0],stats_dict['impression'],stats_dict['click_rate'],stats_dict['comment'],stats_dict['repost'],stats_dict['click'],stats_dict['engagement']))
+                connection.commit()
                 logging.info("Stats inserted")
 
                 # extracting reactions
@@ -194,8 +196,8 @@ def crawl_linkedin_posts():
 
                 reactions_dict = extract_reaction_values(reactions)
                 logging.info("Reactions values extracted: %s", reactions_dict)
-                # cursor_obj.execute("INSERT INTO reactions(post_id, nb_like, nb_love, nb_support, nb_celebrate, nb_insightful, nb_funny, total) VALUES(%s,%s,%s,%s,%s,%s,%s,%s) ON CONFLICT (post_id) DO UPDATE SET nb_like = EXCLUDED.nb_like, nb_love = EXCLUDED.nb_love, nb_support= EXCLUDED.nb_support, nb_celebrate=EXCLUDED.nb_celebrate, nb_insightful = EXCLUDED.nb_insightful, nb_funny = EXCLUDED.nb_funny, total = EXCLUDED.total " , (post_id[0], reactions_dict['nb_like'], reactions_dict['nb_love'], reactions_dict['nb_support'], reactions_dict['nb_celebrate'], reactions_dict['nb_insightful'], reactions_dict['nb_funny'], int(total_react) ))
-                # connection.commit()
+                cursor_obj.execute("INSERT INTO reactions(post_id, nb_like, nb_love, nb_support, nb_celebrate, nb_insightful, nb_funny, total) VALUES(%s,%s,%s,%s,%s,%s,%s,%s) ON CONFLICT (post_id) DO UPDATE SET nb_like = EXCLUDED.nb_like, nb_love = EXCLUDED.nb_love, nb_support= EXCLUDED.nb_support, nb_celebrate=EXCLUDED.nb_celebrate, nb_insightful = EXCLUDED.nb_insightful, nb_funny = EXCLUDED.nb_funny, total = EXCLUDED.total " , (post_id[0], reactions_dict['nb_like'], reactions_dict['nb_love'], reactions_dict['nb_support'], reactions_dict['nb_celebrate'], reactions_dict['nb_insightful'], reactions_dict['nb_funny'], int(total_react) ))
+                connection.commit()
                 logging.info("reaction insered")    
                     
                 post = { 
@@ -237,8 +239,8 @@ def crawl_linkedin_posts():
             break
         logging.info("Checking if all elements are found")
     
-    # cursor_obj.close()
-    # connection.close()
+    cursor_obj.close()
+    connection.close()
     driver.quit()
     logging.info("Closed cursor_obj, connection, and driver")
 
