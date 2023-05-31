@@ -24,9 +24,9 @@ services:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=salma
       - POSTGRES_DB=guernida
-      - PGPORT=5432
+      - PGPORT=5433
     ports:
-      - 5432:5432
+      - 5433:5432
     networks:
       - mynetwork
   # elasticsearch:
