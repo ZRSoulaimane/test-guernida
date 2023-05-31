@@ -53,7 +53,7 @@ def connexions(driver):
 def database_connexion():
     connection = psycopg2.connect(
             host='host.docker.internal',
-            port='5432',
+            port='5433',
             user='postgres',
             password='salma',
             database='guernida'
